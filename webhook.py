@@ -3,7 +3,7 @@ import requests
 
 def send_webhook(webhook_url, count):
     message = {
-        "content": "@everyone 荒らしたね？殺します。"
+        "content": "@everyone 荒らしたね？殺します。(*^^*) https://wataamee777.github.io/reid/reid.gif"
     }
     success_count = 0  # 成功回数を記録する変数
 
@@ -11,7 +11,7 @@ def send_webhook(webhook_url, count):
         response = requests.post(webhook_url, json=message)
         if response.status_code == 204:
             success_count += 1
-            print(f"Message {i + 1} sent successfully!")
+            print(f"{i+1}個目送信しました")
         else:
             print(f"Failed to send message {i + 1}. Status code: {response.status_code}, Response: {response.text}")
     
