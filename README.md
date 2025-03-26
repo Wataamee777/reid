@@ -18,3 +18,11 @@ webhook.py webhookリンク 送信回数
 で実行
 これで仕返しの完成
 ### (~~めんどくさいのでサブドメイン使いません~~)
+
+# termuxのダウンロードリンク↓
+
+https://github.com/termux/termux-app/releases/download/v0.118.1/termux-app_v0.118.1+github-debug_arm64-v8a.apk
+
+apkなので安全ですが一応自己責任で😅
+というかこのpythonの使用自体も自己責任で。
+一切責任を負いかねますのでご了承下さい。
